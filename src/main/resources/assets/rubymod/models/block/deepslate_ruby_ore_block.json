@@ -1,0 +1,6 @@
+{
+    parent:"minecraft:block/generated",
+    "texture":{
+        "layer0":"rubymod:block/ruby_ore_block"
+    }
+}

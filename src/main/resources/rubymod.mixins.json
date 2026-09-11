@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "mod.pushnyasha.rubymod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+        "CraftingRemainderMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
