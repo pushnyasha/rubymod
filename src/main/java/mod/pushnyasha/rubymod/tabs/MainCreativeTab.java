@@ -16,8 +16,8 @@ public class MainCreativeTab {
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.RUBY_ITEM);
                 output.accept(ModItems.RUBY_POWDER_ITEM);
-                output.accept(ModBlocks.RUBY_ORE_BLOCK);
-                output.accept(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK);
+                output.accept(ModItems.RUBY_ORE_BLOCK_ITEM);
+                output.accept(ModItems.DEEPSLATE_RUBY_ORE_BLOCK_ITEM);
             })
             .build();
     }
