@@ -1,6 +1,6 @@
 {
-    parent:"minecraft:block/generated",
-    "texture":{
-        "layer0":"rubymod:block/ruby_ore_block"
-    }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rubymod:block/deepslate_ruby_ore_block"
+  }
 }
