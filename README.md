@@ -6,5 +6,4 @@ Welcome to official RubyMod github repository. The latest versions of the mod th
 * Blocks: ruby ore block, deepslate ruby ore block
 
 ## Read This before use my mod assets!!
-Код моды распространяется по лицензии [например, MIT], но все графические ресурсы (текстуры, модели, звуки) защищены авторским правом. Их копирование, изменение и коммерческое использование без разрешения
 The mod code is distributed under a license [for example, MIT], but all graphic resources (textures, models, sounds) are protected by copyright. Copying, modifying and commercial use of them without permission is prohibited (All Rights Reserved).
