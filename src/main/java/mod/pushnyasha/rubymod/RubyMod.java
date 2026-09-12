@@ -14,5 +14,6 @@ public class RubyMod implements ModInitializer {
         ModBlocks.registerModBlocks();
         ModItems.registerModItems();
         ModTabs.registerModTabs();
+        ModBlocks.registerWorldGeneration();
     }
 }
