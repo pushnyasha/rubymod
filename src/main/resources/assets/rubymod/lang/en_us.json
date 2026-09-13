@@ -1,6 +1,7 @@
 {
     "item.rubymod.ruby":"Ruby",
     "item.rubymod.ruby_powder":"Ruby powder",
+    "item.rubymod.molten_ruby_bucket":"Molten ruby bucket",
     "block.rubymod.ruby_ore_block":"Ruby ore",
     "block.rubymod.deepslate_ruby_ore_block":"Deepslate ruby ore",
     "tabs.rumymod.main_tab":"RubyMod"

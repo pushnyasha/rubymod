@@ -3,8 +3,9 @@
 	"package": "mod.pushnyasha.rubymod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
-        "CraftingRemainderMixin"
+		"AbstractContainerMenuMixin",
+        "CraftingRemainderMixin",
+        "FurnaceFuelRestrictionMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

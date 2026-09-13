@@ -1,6 +1,7 @@
 {
     "item.rubymod.ruby":"Рубин",
     "item.rubymod.ruby_powder":"Рубиновый порошок",
+    "item.rubymod.molten_ruby_bucket":"Ведро расплавленного рубина",
     "block.rubymod.ruby_ore_block":"Рубиновая руда",
     "block.rubymod.deepslate_ruby_ore_block":"Глубинносланцевая рубиновая руда",
     "tabs.rubymod.main_tab":"RubyMod"
