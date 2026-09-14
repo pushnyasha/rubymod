@@ -5,4 +5,4 @@ public class RubyPowderItem extends Item {
     public RubyPowderItem(Properties properties) {
         super(properties.rarity(net.minecraft.world.item.Rarity.COMMON));
     }
-}
+} 

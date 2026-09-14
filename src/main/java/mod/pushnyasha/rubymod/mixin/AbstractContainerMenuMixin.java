@@ -57,6 +57,15 @@ public class AbstractContainerMenuMixin {
 
                             ci.cancel();
                         }
+                    } else if (currentAmount == 64) {
+                        int containerSlotIndex = slot.getContainerSlot();
+                        if (containerSlotIndex == 2) {
+                            furnaceMenu.setData(0, 0);
+                            furnaceMenu.setData(1, 0);
+                            furnaceMenu.setData(2, 0);
+                            
+                            furnaceMenu.broadcastChanges();
+                        }
                     }
                 }
             }
