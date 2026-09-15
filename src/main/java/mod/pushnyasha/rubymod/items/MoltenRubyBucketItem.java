@@ -5,12 +5,13 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.Mth;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.component.CustomData;
 
 public class MoltenRubyBucketItem extends Item{
     public static final int MAX_PROGRESS = 64;
     public MoltenRubyBucketItem(Properties properties) {
-        super(properties.rarity(net.minecraft.world.item.Rarity.COMMON).stacksTo(1));
+        super(properties.rarity(net.minecraft.world.item.Rarity.COMMON).stacksTo(1).craftRemainder(Items.BUCKET));
     }
     @Override
     public boolean isBarVisible(ItemStack stack) {

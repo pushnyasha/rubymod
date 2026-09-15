@@ -5,6 +5,9 @@
 	"mixins": [
 		"AbstractContainerMenuMixin",
         "CraftingRemainderMixin",
+        "ItemStackMixin",
+        "AnvilMenuMixin",
+        "ShapelessRecipeMixin",
         "FurnaceFuelRestrictionMixin"
 	],
 	"injectors": {

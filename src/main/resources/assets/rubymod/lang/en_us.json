@@ -1,6 +1,10 @@
 {
     "item.rubymod.ruby":"Ruby",
     "item.rubymod.ruby_powder":"Ruby powder",
+    "item.rubymod.ruby-coated_gold_helmet":"Ruby-coated golden helmet",
+    "item.rubymod.ruby-coated_gold_chestplate":"Ruby-coated golden chestplate",
+    "item.rubymod.ruby-coated_gold_leggings":"Ruby-coated golden leggings",
+    "item.rubymod.ruby-coated_gold_boots":"Ruby-coated golden boots",
     "item.rubymod.molten_ruby_bucket":"Molten ruby bucket",
     "block.rubymod.ruby_ore_block":"Ruby ore",
     "block.rubymod.deepslate_ruby_ore_block":"Deepslate ruby ore",

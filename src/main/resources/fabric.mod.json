@@ -3,15 +3,15 @@
 	"id": "rubymod",
 	"version": "${version}",
 	"name": "RubyMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "",
 	"authors": [
-		"Me!"
+		"pushnyasha"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/pushnyasha/rubymod",
+		"sources": "https://github.com/pushnyasha/rubymod"
 	},
-	"license": "CC0-1.0",
+	"license": "CC_BY_NC_SA 4.0",
 	"icon": "assets/rubymod/icon.png",
 	"environment": "*",
 	"entrypoints": {

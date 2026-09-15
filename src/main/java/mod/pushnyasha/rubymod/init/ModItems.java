@@ -1,10 +1,14 @@
 package mod.pushnyasha.rubymod.init;
 
 import mod.pushnyasha.rubymod.RubyMod;
+
 import mod.pushnyasha.rubymod.items.MoltenRubyBucketItem;
 import mod.pushnyasha.rubymod.items.RubyItem;
 import mod.pushnyasha.rubymod.items.RubyPowderItem;
 import mod.pushnyasha.rubymod.utilityFunctions.ModElementsRegistrator;
+import mod.pushnyasha.rubymod.armor.RubyCoatedGoldArmorMaterial;
+
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.core.Registry;
@@ -19,6 +23,11 @@ public class ModItems {
     public static final BlockItem DEEPSLATE_RUBY_ORE_BLOCK_ITEM = ModElementsRegistrator.registerItem(new BlockItem(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK, new Item.Properties()), "deepslate_ruby_ore_block");
     public static final Item RUBY_POWDER_ITEM = ModElementsRegistrator.registerItem(new RubyPowderItem(new Item.Properties()), "ruby_powder");
     public static final Item MOLTEN_RUBY_BUCKET_ITEM = ModElementsRegistrator.registerItem(new MoltenRubyBucketItem(new Item.Properties()), "molten_ruby_bucket");
+    public static final Item RUBY_COATED_GOLD_HELMET = ModElementsRegistrator.registerItem(new ArmorItem(RubyCoatedGoldArmorMaterial.RUBY_COATED_GOLD_ARMOR_MATERIAL,ArmorItem.Type.HELMET, new Item.Properties().durability(385).stacksTo(1)), "ruby-coated_gold_helmet");
+    public static final Item RUBY_COATED_GOLD_CHESTPLATE = ModElementsRegistrator.registerItem(new ArmorItem(RubyCoatedGoldArmorMaterial.RUBY_COATED_GOLD_ARMOR_MATERIAL,ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(560).stacksTo(1)), "ruby-coated_gold_chestplate");
+    public static final Item RUBY_COATED_GOLD_LEGGINGS = ModElementsRegistrator.registerItem(new ArmorItem(RubyCoatedGoldArmorMaterial.RUBY_COATED_GOLD_ARMOR_MATERIAL,ArmorItem.Type.LEGGINGS, new Item.Properties().durability(525).stacksTo(1)), "ruby-coated_gold_leggings");
+    public static final Item RUBY_COATED_GOLD_BOOTS = ModElementsRegistrator.registerItem(new ArmorItem(RubyCoatedGoldArmorMaterial.RUBY_COATED_GOLD_ARMOR_MATERIAL,ArmorItem.Type.BOOTS, new Item.Properties().durability(455).stacksTo(1)), "ruby-coated_gold_boots");
+
     public static void registerModItems() {
     }
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rubymod:ruby-coated_gold_helmet",
+    "rubymod:ruby-coated_gold_chestplate",
+    "rubymod:ruby-coated_gold_leggings",
+    "rubymod:ruby-coated_gold_boots"
+  ]
+}

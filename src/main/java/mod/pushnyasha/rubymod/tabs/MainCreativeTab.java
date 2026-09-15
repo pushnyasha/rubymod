@@ -18,6 +18,10 @@ public class MainCreativeTab {
                 output.accept(ModItems.RUBY_POWDER_ITEM);
                 output.accept(ModItems.RUBY_ORE_BLOCK_ITEM);
                 output.accept(ModItems.DEEPSLATE_RUBY_ORE_BLOCK_ITEM);
+                output.accept(ModItems.RUBY_COATED_GOLD_HELMET);
+                output.accept(ModItems.RUBY_COATED_GOLD_CHESTPLATE);
+                output.accept(ModItems.RUBY_COATED_GOLD_LEGGINGS);
+                output.accept(ModItems.RUBY_COATED_GOLD_BOOTS);
             })
             .build();
     }

@@ -1,8 +1,12 @@
 {
     "item.rubymod.ruby":"Рубин",
     "item.rubymod.ruby_powder":"Рубиновый порошок",
+    "item.rubymod.ruby-coated_gold_helmet":"Золотой шлем с рубиновым покрытием",
+    "item.rubymod.ruby-coated_gold_chestplate":"Золотой нагрудник с рубиновым покрытием",
+    "item.rubymod.ruby-coated_gold_leggings":"Золотые поножи с рубиновым покрытием",
+    "item.rubymod.ruby-coated_gold_boots":"Золотые ботинки с рубиновым покрытием",
     "item.rubymod.molten_ruby_bucket":"Ведро расплавленного рубина",
     "block.rubymod.ruby_ore_block":"Рубиновая руда",
     "block.rubymod.deepslate_ruby_ore_block":"Глубинносланцевая рубиновая руда",
-    "tabs.rubymod.main_tab":"RubyMod"
+    "tabs.rubymod.main_tab":"РубиМод (RubyMod)"
 }
